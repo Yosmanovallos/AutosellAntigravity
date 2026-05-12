@@ -14,11 +14,12 @@
       "position": [
         820,
         360
-      ],
-      "webhookId": "23d14210-9148-433b-873d-fb498bf81ed9"
+      ]
     },
     {
       "parameters": {
+        "resource": "message",
+        "operation": "sendMessage",
         "chatId": "={{ $json.message.chat.id }}",
         "text": "Hello! I am your Autosell agent. You said: {{ $json.message.text }}",
         "additionalFields": {}
