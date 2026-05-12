@@ -1,0 +1,15 @@
+# Secrets
+infra/.env
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# n8n
+n8n_data/
